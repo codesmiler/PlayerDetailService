@@ -37,4 +37,8 @@ public class UserDetails {
     public void setMobileNumber(String mobileNumber) {
         this.mobileNumber = mobileNumber;
     }
+
+    public String toString(){
+        return userId+","+emailId+","+mobileNumber;
+    }
 }

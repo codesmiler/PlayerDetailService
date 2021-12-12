@@ -1,0 +1,11 @@
+server:
+  port: 4567
+
+amazon:
+  access:
+    key: LocalAWSAccessKey
+    secret-key: LocalAWSSecretKey
+  region: ap-south-1
+  end-point:
+    url: http://localhost:8000/
+
